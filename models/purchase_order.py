@@ -36,4 +36,4 @@ class PurchaseOrderLine(models.Model):
                     line.sl_no = serial_no
                     serial_no += 1                    
                 else:
-                    line.serial_no = 0
+                    line.sl_no = 0
